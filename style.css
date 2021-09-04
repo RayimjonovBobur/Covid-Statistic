@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap");
+
+body {
+  margin: 0;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background: #1c2023;
+}
+
+header {
+  font-size: 1.5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.3) 100%, rgba(0, 0, 0, 0.3) 100%),
+    url("images/cdiv.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+header,
+form {
+  min-height: 32vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  background: #fff;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px 0 0 10px;
+  transition: box-shadow 0.3s;
+}
+
+form input:focus {
+  -webkit-box-shadow: 0px 2px 26px 5px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 2px 26px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 2px 26px 5px rgba(34, 60, 80, 0.2);
+}
+
+form button {
+  color: #fff;
+  background: rgb(131, 0, 0);
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+  transition: background 0.5s;
+}
+
+form button:hover {
+  background: rgb(245, 85, 74);
+}
+
+.info-container {
+  width: 90%;
+  margin: auto;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+ul li {
+  background: rgb(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+ul li i {
+  font-size: 4.2rem;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 14px 10px rgba(12, 68, 111, 0.2);
+  background-color: rgb(164, 167, 12);
+  transition: all 0.9s;
+}
+
+.blue {
+  color: rgb(68, 68, 233);
+}
+
+.och-rang {
+  color: rgb(22, 219, 245);
+}
+
+.qizl {
+  color: rgb(253, 76, 76);
+}
+
+.yashil {
+  color: rgb(46, 206, 54);
+}
+
+.sariq {
+  color: rgb(228, 238, 90);
+}
+
+.blue1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 14px 10px rgba(12, 68, 111, 0.2);
+  background-color: rgb(8, 8, 100);
+  transition: all 0.9s;
+}
+
+.och:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 14px 10px rgba(12, 68, 111, 0.2);
+  background-color: rgb(3, 120, 136);
+  transition: all 0.9s;
+}
+
+.qizl1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 14px 10px rgba(12, 68, 111, 0.2);
+  background-color: rgb(119, 11, 11);
+  transition: all 0.9s;
+}
+
+.sariq1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 14px 10px rgba(12, 68, 111, 0.2);
+  background-color: rgb(125, 134, 8);
+  transition: all 0.9s;
+}
+
+.yashil1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 14px 10px rgba(12, 68, 111, 0.2);
+  background-color: rgb(10, 131, 16);
+  transition: all 0.9s;
+}
