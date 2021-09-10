@@ -2,9 +2,9 @@ BoburDev
 
 # Project Image
 
-![desktop] (.images/img1.png)
-![mobile] (.images/img2.png)
-![mobile-2] (.images/img3.png)
+![desktop] (./img1.png)
+![mobile] (./img2.png)
+![mobile-2] (./img3.png)
 
 For communication 👇
 
